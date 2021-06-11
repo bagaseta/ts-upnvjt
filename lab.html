@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik Sipil UPNVJT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <a href="index.html" class="logo-font">Teknik Sipil UPN Jatim</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Profil</a></li>
+                    <li><a href="course.html">Akademik</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="lab.html">Laboratorium</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Laboratorium</h1>
+    </section>
+
+    <!-----------Fasilitas----------->
+    <section class="facilities">
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/mektan.jpg">
+                <h3>Mekanika Tanah</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/hidro.jpg">
+                <h3>Hidrologi</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/bahanjalan.jpg">
+                <h3>Bahan Jalan</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/beton.jpg">
+                <h3>Beton</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/ilmuukurtanah.jpg">
+                <h3>Ilmu Ukur Tanah</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/komputer.jpg">
+                <h3>Komputer</h3>
+                <p>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</p>
+            </div>
+        </div>
+
+    </section>
+
+        <!--------Footer------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>There is no one who loves pain itself, who seeks after it and wants to have it, <br>simply because it is pain...</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>All right reserved<i class="fa fa-copyright"></i></p>
+        </section>
+    
+     
+    
+        <!--------JS for Toggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+    
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+    
+        </script>
+    
+    
+</body>
+</html>

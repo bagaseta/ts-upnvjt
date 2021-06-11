@@ -1,0 +1,126 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik Sipil UPNVJT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <a href="index.html" class="logo-font">Teknik Sipil UPN Jatim</a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Profil</a></li>
+                        <li><a href="course.html">Akademik</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="event.html">Event</a></li>
+                        <li><a href="lab.html">Laboratorium</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Blog Post</h1>
+    </section>
+
+    <!----- BLog Content ------>
+    <section class="blog-content">
+    
+        <div class="row">
+            <div class="blog-left">
+                <div class="blog-post">
+                    <img src="images/certificate.jpg">
+                    <h2>Kegiatan Kampus #1</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <a href="single-blog.html" class="hero-btn red-btn">BACA SELENGKAPNYA</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/kegiatan2.jpg">
+                    <h2>Kegiatan Kampus #2</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <a href=".html" class="hero-btn red-btn">BACA SELENGKAPNYA</a>
+                </div>
+                <div class="blog-post">
+                    <img src="images/kegiatan3.jpg">
+                    <h2>Kegiatan Kampus #3</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                    <a href=".html" class="hero-btn red-btn">BACA SELENGKAPNYA</a>
+                </div>
+            </div>
+
+
+            <div class="blog-right">
+                <h3>Ketegori</h3>
+                <div>
+                    <span>Penelitian</span>
+                    <span>11</span>
+                </div>
+                <div>
+                    <span>Pengabdian</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Kuliah Tamu</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>Geoteknik</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Struktur</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Transportasi</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Manajemen Konstruksi</span>
+                    <span>19</span>
+                </div>
+                <div>
+                    <span>GIS</span>
+                    <span>7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--------Footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>There is no one who loves pain itself, who seeks after it and wants to have it, <br>simply because it is pain...</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>All right reserved<i class="fa fa-copyright"></i></p>
+    </section>
+
+ 
+
+    <!--------JS for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+</body>
+</html>
